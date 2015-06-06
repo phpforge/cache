@@ -1,0 +1,10 @@
+{
+	"name": "Forge/Cache",
+	"description": "Forge Cache",
+	"autoload": {
+		"psr-0": {"Forge": "src/"}
+	},
+	"require": {
+
+	}
+}
