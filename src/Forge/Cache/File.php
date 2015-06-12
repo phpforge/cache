@@ -18,8 +18,7 @@ class File {
 	}
 
 	public function save($content) {
-		
-		echo dirname($this->file);
+
 		if (!is_writable(dirname($this->file))) {
 			throw new \Exception('Unable to write to cache directory');
 		}
